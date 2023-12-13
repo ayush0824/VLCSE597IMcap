@@ -31,6 +31,9 @@ In order to use these pretrained models, clone/download this repository. Make su
 In order to train your own model, clone/download this repository. Install all libraries mentioned above. Download content mentioned in /ImageCap/misc/Download links.txt.
 (1) Extract images using Extract.ipynb. (2) Run Image_Features.ipynb to obtain features of the images (3) Run Text_processing_and_embedding.ipynb to perform text preprocessing and word embedding. (4) Run Training.ipynb to train the model. (5) Run Evaluate.ipynb to get results on test images. (Note that, you will need to create some additional empty sub-directories as per paths in code to contain things like Image features, Images etc.) 
 
+## RUN the test.ipynb or if you wish to run the code, example use command on collab by running command: !python3 run.py /content/images/image.001 '5'
+
+## Big thanks to Vinayak Sharma whose insights on paper 'Show Attend and tell" in his code repo gave me hints to create my own version of the same and helped me to replicate in my own version.
 
 ## Results
 
